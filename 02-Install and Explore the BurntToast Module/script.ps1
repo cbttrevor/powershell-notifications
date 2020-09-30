@@ -1,5 +1,5 @@
 # Search for the latest version of the module in PowerShell Gallery
-Find-Module -Name BurntToast
+Find-Module -Name BurntToast -AllVersions
 
 # Install the module into your user (non-admin) directory
 Install-Module -Name BurntToast -Scope CurrentUser -Force
